@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Homework1</string>
+    <string name="firstboxhint">enter text or number</string>
+    <string name="secondboxhint">enter text or number</string>
+    <string name="concat_button">concat</string>
+    <string name="add_button">add</string>
+</resources>
