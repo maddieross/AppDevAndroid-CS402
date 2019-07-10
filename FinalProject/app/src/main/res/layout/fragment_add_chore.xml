@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+             xmlns:tools="http://schemas.android.com/tools"
+             android:layout_width="match_parent"
+             android:layout_height="match_parent"
+             tools:context=".Fragments.AddChoreFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+        <TextView
+                android:text="@string/add_chore_fragment_title"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" android:id="@+id/title_textView" android:textSize="30sp"/>
+        <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="text"
+                android:ems="10"
+                android:id="@+id/chore_edittext" android:hint="@string/chore_title"/>
+        <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:id="@+id/description_edittext" android:inputType="text"
+                android:hint="@string/chore_description"/>
+        <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="date"
+                android:ems="10"
+                android:id="@+id/chore_date_edittext" android:hint="@string/chore_due_date"/>
+        <TextView
+                android:text="@string/assigned_to"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" android:id="@+id/assigned_textview" android:textSize="18sp"/>
+        <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="textPersonName"
+                android:ems="10"
+                android:id="@+id/assigned_editText" android:hint="@string/display_name_box_hint"/>
+        <Button
+                android:text="@string/add_button"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" android:id="@+id/add_button"/>
+        <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" android:id="@+id/message_textview" android:textSize="18sp"/>
+    </LinearLayout>
+
+</FrameLayout>

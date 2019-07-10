@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+             xmlns:tools="http://schemas.android.com/tools"
+             android:layout_width="match_parent"
+             android:layout_height="match_parent"
+             tools:context=".Fragments.HomeFragment">
+    <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" android:layout_marginBottom="1000px">
+        <TextView
+                android:text="@string/chores"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" android:id="@+id/chore_title_textview"
+                android:textSize="24sp"/>
+        <ScrollView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+            <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content"
+                          android:orientation="vertical">
+                <TextView
+                        android:text="@string/chore_examples"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content" android:id="@+id/chores_textview" android:textSize="18sp"
+                />
+            </LinearLayout>
+        </ScrollView>
+    </LinearLayout>
+    <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" android:layout_marginTop="800px">
+        <TextView
+                android:text="@string/alerts"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" android:id="@+id/alerts_title_textview"
+                android:textSize="24sp"/>
+        <ScrollView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+            <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content"
+                          android:orientation="vertical">
+                <TextView
+                        android:text="@string/alert_examples"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content" android:id="@+id/alerts_textview" android:textSize="18sp"/>
+            </LinearLayout>
+        </ScrollView>
+    </LinearLayout>
+</FrameLayout>
